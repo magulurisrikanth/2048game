@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styling for the game container */
+.game-container {
+  text-align: center;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Styling for the game title */
+h1 {
+  color: #776e65;
+}
+
+/* Styling for the game board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #bbada0;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for individual tiles */
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cdc1b4;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #776e65;
+  width: 100px;
+  height: 100px;
+}
+
+/* Styling for the tile numbers */
+.tile span {
+  line-height: 100px;
+}
+
+/* Styling for game info */
+.game-info {
+  margin-top: 20px;
+}
+
+/* Styling for the score display */
+.score {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styling for the game over message */
+.game-over {
+  font-size: 30px;
+  color: #776e65;
+  font-weight: bold;
+}
+
+/* Styling for the restart button */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #8f7a66;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the restart button on hover */
+button:hover {
+  background-color: #ab9a87;
+}
